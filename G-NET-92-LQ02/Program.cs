@@ -86,6 +86,21 @@ namespace G_NET_92_LQ02
             //}
 
             #endregion
+
+            #region Question_08
+            //8.Find all categories that have MORE THAN 3 products
+
+            //var result = Source.ProductList.GroupBy(p => p.Category).Where(G=>G.Count()>3);
+
+            //foreach (var Group in result)
+            //{
+            //    Console.WriteLine("=========================================================");
+            //    Console.WriteLine($"{Group.Key} :::: {Group.Count()}");
+            //}
+
+            #endregion
+
+
         }
     }
 }
