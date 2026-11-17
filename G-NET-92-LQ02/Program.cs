@@ -31,6 +31,19 @@ namespace G_NET_92_LQ02
             //}
             #endregion
 
+            #region Question_03
+            //3.Take products from the list as long as Their UnitPrice is less than
+            //$25(list is ordered by price).
+
+            //var Result = Source.ProductList.TakeWhile(p=>p.UnitPrice < 25m);
+
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
+
+
         }
     }
 }
