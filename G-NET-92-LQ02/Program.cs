@@ -2,6 +2,7 @@
 using LINQ.Models;
 using System.Collections;
 using System.ComponentModel;
+using System.Diagnostics.Metrics;
 using System.Text.RegularExpressions;
 
 
@@ -100,6 +101,28 @@ namespace G_NET_92_LQ02
 
             #endregion
 
+
+            #region Question_09
+            //9.Using QUERY SYNTAX, group customers by Country, and for each
+            //group select { Country, Count, TotalOrderValue }.
+
+            //var result = from C in Source.CustomerList
+            //             group C by C.Country
+            //             into N
+            //             select new
+            //             {
+            //                 Contry = N.Key,
+            //                 Count = N.Count(),
+            //                 TotalOrderValue = N.SelectMany( c => c.Orders).Sum(o => o.Total)
+            //             };
+
+
+
+            //foreach (var group in result)
+            //{
+            //    Console.WriteLine(group);
+            //}
+            #endregion
 
         }
     }
