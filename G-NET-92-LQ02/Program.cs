@@ -20,7 +20,16 @@ namespace G_NET_92_LQ02
             //}
             #endregion
 
+            #region Question_02
+            //2.show page 2 of products, with page size = 5
 
+            //var result = Source.ProductList.Skip((2-1)*5).Take(5);
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
 
         }
     }
