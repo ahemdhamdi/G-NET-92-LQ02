@@ -4,6 +4,7 @@ using System.Collections;
 using System.ComponentModel;
 using System.Diagnostics.Metrics;
 using System.Text.RegularExpressions;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 
 
@@ -122,6 +123,15 @@ namespace G_NET_92_LQ02
             //{
             //    Console.WriteLine(group);
             //}
+            #endregion
+
+            #region Question_10
+            //10.Calculate the total number of units in stock across all products
+
+            //var result = Source.ProductList.Count(p => p.UnitsInStock > 0);
+
+            //Console.WriteLine(result);
+
             #endregion
 
         }
