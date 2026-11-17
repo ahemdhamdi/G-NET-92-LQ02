@@ -2,6 +2,7 @@
 using LINQ.Models;
 using System.Collections;
 using System.ComponentModel;
+using System.Text.RegularExpressions;
 
 
 
@@ -62,6 +63,28 @@ namespace G_NET_92_LQ02
             //var result = ids.Contains(9);
 
             //Console.WriteLine(result);
+            #endregion
+
+            #region Question_06 & Question_07
+            //6.Group all products by Category and print each group with its
+            //product count.
+
+            //7.Group products by Category and project only product names per
+            //group
+
+            //var result = Source.ProductList.GroupBy(p => p.Category);
+
+            //foreach (var Group in result)
+            //{
+            //    Console.WriteLine("=========================================================");
+            //    Console.WriteLine($"{Group.Key} :::: {Group.Count()}");
+            //    Console.WriteLine("====== Group Product ======");
+            //    foreach (var item in Group)
+            //    {
+            //        Console.WriteLine(item.ProductName);
+            //    }
+            //}
+
             #endregion
         }
     }
