@@ -1,6 +1,7 @@
 ﻿using LINQ.DataSources;
 using LINQ.Models;
 using System.Collections;
+using System.ComponentModel;
 
 
 
@@ -50,6 +51,17 @@ namespace G_NET_92_LQ02
             //var Result = Source.ProductList.Where(p => p.Category == "Seafood").All(p => p.UnitsInStock > 0);
 
             //Console.WriteLine(Result);
+            #endregion
+
+            #region Question_05
+            //5.Check if the ID list contains 9
+
+
+            //int[] ids = { 3, 9, 13, 18 };
+
+            //var result = ids.Contains(9);
+
+            //Console.WriteLine(result);
             #endregion
         }
     }
