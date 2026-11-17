@@ -1,5 +1,6 @@
 ﻿using LINQ.DataSources;
 using LINQ.Models;
+using System.Collections;
 
 
 
@@ -43,7 +44,13 @@ namespace G_NET_92_LQ02
             //}
             #endregion
 
+            #region Question_04
+            //4.Check if ALL products in the "Seafood" category are in stock
 
+            //var Result = Source.ProductList.Where(p => p.Category == "Seafood").All(p => p.UnitsInStock > 0);
+
+            //Console.WriteLine(Result);
+            #endregion
         }
     }
 }
