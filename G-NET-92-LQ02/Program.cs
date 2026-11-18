@@ -248,6 +248,27 @@ namespace G_NET_92_LQ02
             //    Console.WriteLine(item);
             //}
             #endregion
+
+            #region Question_20
+            //20.Concatenate the first 3 product names with the first 3
+            //    customer company names into a single sequence.
+
+            //var product = Source.ProductList
+            //    .Take(3)
+            //    .Select(p => p.ProductName);
+
+            //var customer = Source.CustomerList
+            //    .Take(3)
+            //    .Select(c => c.CustomerName);
+
+            //var result = product.Concat(customer);
+
+            //foreach (var item in result)
+            //{
+            //    Console.Write($"{item},' ',");
+            //}
+
+            #endregion
         }
     }
 }
