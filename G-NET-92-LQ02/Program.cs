@@ -183,6 +183,19 @@ namespace G_NET_92_LQ02
             //}
             #endregion
 
+
+            #region Question_15
+            //15.Build a Dictionary<int, Product> keyed by ProductID. Then
+            //retrieve and print the product with ID = 18.
+
+            //var result = Source.ProductList.ToDictionary(P => P.ProductID, P => P).Where(p=>p.Key==18).Select(P=>P.Value);
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
         }
     }
 }
