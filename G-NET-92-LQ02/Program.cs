@@ -2,6 +2,7 @@
 using LINQ.Models;
 using System.Collections;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Diagnostics.Metrics;
 using System.Text.RegularExpressions;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -132,6 +133,15 @@ namespace G_NET_92_LQ02
 
             //Console.WriteLine(result);
 
+            #endregion
+
+            #region Question_11
+            //11.Find the CHEAPEST and MOST EXPENSIVE product prices
+            //var MostExpensiveProduct = Source.ProductList.OrderByDescending(p => p.UnitPrice).FirstOrDefault();
+            //var CheapestProduct = Source.ProductList.OrderByDescending(p => p.UnitPrice).LastOrDefault();
+
+            //Console.WriteLine($"Most Expensive Product {MostExpensiveProduct}");
+            //Console.WriteLine($"Cheapest Product {CheapestProduct}");
             #endregion
 
         }
