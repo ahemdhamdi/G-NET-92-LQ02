@@ -196,6 +196,18 @@ namespace G_NET_92_LQ02
             //}
 
             #endregion
+
+
+            #region Question_16
+            //16.Get the first product whose price is greater than $50.
+
+            //var reslut = Source.ProductList.Where(p => p.UnitPrice > 50m)?.FirstOrDefault();
+
+          
+            //    Console.WriteLine(reslut);
+          
+
+            #endregion
         }
     }
 }
