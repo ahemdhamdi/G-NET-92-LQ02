@@ -144,6 +144,17 @@ namespace G_NET_92_LQ02
             //Console.WriteLine($"Cheapest Product {CheapestProduct}");
             #endregion
 
+
+            #region Question_12
+            //12.Get a distinct list of all product categories
+            //var result = Source.ProductList.DistinctBy(p => p.Category);
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
+
         }
     }
 }
