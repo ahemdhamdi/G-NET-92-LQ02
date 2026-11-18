@@ -217,6 +217,24 @@ namespace G_NET_92_LQ02
 
             //Console.WriteLine(result);
             #endregion
+
+
+            #region Question_18
+            //18.Generate a multiplication table row for 7
+            //int num = 7;
+
+            //var numbers = Enumerable.Range(1, 12);
+
+            //var result = numbers
+            //    .Select(n => n * 7)
+            //    .ToList();
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
+
         }
     }
 }
