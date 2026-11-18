@@ -203,10 +203,19 @@ namespace G_NET_92_LQ02
 
             //var reslut = Source.ProductList.Where(p => p.UnitPrice > 50m)?.FirstOrDefault();
 
-          
-            //    Console.WriteLine(reslut);
-          
 
+            //    Console.WriteLine(reslut);
+
+
+            #endregion
+
+            #region Question_17
+            //17.Try to get the first product with a price > $500.it returns null
+            //instead of throwing.
+
+            //var result = Source.ProductList.FirstOrDefault(p => p.UnitPrice > 500);
+
+            //Console.WriteLine(result);
             #endregion
         }
     }
