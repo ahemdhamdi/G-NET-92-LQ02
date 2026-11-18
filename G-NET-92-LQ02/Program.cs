@@ -235,6 +235,19 @@ namespace G_NET_92_LQ02
             //}
             #endregion
 
+
+            #region Question_19
+            //19.Generate even numbers between 1 and 30.
+
+            //var numbers = Enumerable.Range(1, 30);
+
+            //var evenNumbers = numbers.Where(n=>n % 2 == 0);
+
+            //foreach (var item in evenNumbers)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
         }
     }
 }
